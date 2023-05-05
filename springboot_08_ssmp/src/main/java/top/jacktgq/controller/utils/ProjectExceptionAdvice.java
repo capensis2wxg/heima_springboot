@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  * @Date 2022/1/20--15:38
  * @Description 作为springmvc的异常处理器
  */
-//@ControllerAdvice
 @RestControllerAdvice
 public class ProjectExceptionAdvice {
     // 拦截所有的异常信息

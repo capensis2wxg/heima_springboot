@@ -16,7 +16,7 @@ public class MPConfig {
     public MybatisPlusInterceptor mybatisPlusInterceptor() {
         // 1、定义MP拦截器
         MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
-        // 2、添加具体的拦截器
+        // 2、添加具体地拦截器
         interceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return interceptor;
     }

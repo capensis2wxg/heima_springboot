@@ -14,9 +14,11 @@
  Date: 20/01/2022 11:50:34
 */
 
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+use springboot_db;
 -- ----------------------------
 -- Table structure for tbl_book
 -- ----------------------------

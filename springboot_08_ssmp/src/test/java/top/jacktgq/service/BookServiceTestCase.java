@@ -15,7 +15,7 @@ import top.jacktgq.service.impl.BookServiceImpl;
 @SpringBootTest
 public class BookServiceTestCase {
     @Autowired
-    BookService bookService = new BookServiceImpl();
+    BookService bookService;
     @Test
     public void testSave() {
         Book book = new Book();

@@ -11,5 +11,4 @@ import top.jacktgq.pojo.Book;
  */
 @Mapper
 public interface BookMapper extends BaseMapper<Book> {
-
 }

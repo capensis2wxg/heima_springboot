@@ -15,16 +15,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/books")
 public class BookController {
     // 创建记录日志的对象
-    private static Logger log = LoggerFactory.getLogger(BookController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(BookController.class);
 
     @GetMapping
     public String getById() {
         System.out.println("springboot is running...");
-        log.trace("log trace");
-        log.debug("log debug ...");
-        log.info("log info ...");
-        log.warn("log warn ...");
-        log.error("log error ...");
+        LOG.trace("log trace");
+        LOG.debug("log debug ...");
+        LOG.info("log info ...");
+        LOG.warn("log warn ...");
+        LOG.error("log error ...");
         return "springboot is running...";
     }
 }

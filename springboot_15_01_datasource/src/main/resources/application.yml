@@ -24,7 +24,7 @@ spring:
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
       username: root
-      password: TGQ@candywall123
+      password: Wxg@124328l
       maximum-pool-size: 50
       minimum-idle: 30
       idle-timeout: 30000

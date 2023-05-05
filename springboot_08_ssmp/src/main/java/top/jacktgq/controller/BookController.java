@@ -35,7 +35,6 @@ public class BookController {
     }
 
     @PostMapping
-
     public Boolean save(@RequestBody Book book) {
         return bookService.save(book);
     }

@@ -17,7 +17,6 @@ class StringRedisTemplateTests {
     public void testSaveUser() {
         ValueOperations<String, Object> valueOperations = redisTemplate.opsForValue();
         valueOperations.set("user:1", new User("诸葛亮", 27));
-
         System.out.println(valueOperations.get("user:1"));
     }
 }

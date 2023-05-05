@@ -10,6 +10,20 @@ import top.jacktgq.pojo.Book;
  * @Description
  */
 public interface IBookService extends IService<Book> {
+    /**
+     * 获取分页对象
+     * @param currentPage
+     * @param pageSize
+     * @return
+     */
     IPage<Book> getPage(int currentPage, int pageSize);
+
+    /**
+     * 获取分页对象
+     * @param currentPage
+     * @param pageSize
+     * @param book
+     * @return
+     */
     IPage<Book> getPage(int currentPage, int pageSize, Book book);
 }
